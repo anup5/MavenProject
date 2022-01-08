@@ -1,3 +1,8 @@
+// Jenkinsfile
+@Library('my-shared-library') _
+
+evenOrOdd(currentBuild.getNumber())
+
 pipeline {
 	agent any
 stages {
